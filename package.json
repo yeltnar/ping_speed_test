@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "setup":"npm i -g nodemon && npm i",
-    "test": "clear && nodemon index.js server client"
+    "setup": "npm i -g nodemon && npm i",
+    "test": "clear && nodemon index.js server client",
+    "test_docker":"docker"
   },
   "author": "",
   "license": "ISC",
